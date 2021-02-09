@@ -1,0 +1,103 @@
+body
+{
+    font-size: 15px;
+    background-color:  hsl(0, 0%, 100%);
+    font-family: 'Spartan', sans-serif;
+    background-image: image();
+    background-image: url("images/bg-pattern-bottom-desktop.svg"),
+    url("bg-pattern-top-desktop.svg");
+    
+}
+
+
+/*********heading section************/
+
+div.Heading h1
+{
+    color: hsl(300, 43%, 22%);
+    width: 50%;
+    font-family: 'Spartan';
+    font-weight: 700;
+    
+}
+
+/***********paragraph section***************/
+div.Heading p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    text-align: left;
+    padding-right: 10%;
+}
+/**************rating section****************/
+div.rating p
+{
+    background-color: hsl(300, 24%, 96%);
+    padding: 2% 2% 2%;
+    width: fit-content;
+    font-weight: 500;
+    
+}
+   
+/****user section**********/
+.col-4
+{
+    width:23.33%;
+}
+.col-6
+{
+    width:50%;
+}
+.row
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+.container-fluid
+{
+    padding: 7% 7% 15%;
+}
+
+
+
+.user
+{
+    background-color:  hsl(300, 43%, 22%);
+    margin-top: 40px;
+    margin-right:20px ;
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    border-radius: 7%;
+}
+.col-head
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div.user h4,p
+{
+    font-weight: 400;
+}
+p.col-head
+{
+    color:hsl(333, 80%, 67%);
+}
+.user-desc
+{
+    text-align: left;
+}
+/*****************images section***************/
+img
+{
+    border-radius: 100%;
+    float: left;
+    width: 15%;
+}
